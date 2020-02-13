@@ -27,7 +27,7 @@ endfunction
 
 augroup termIgnore
     autocmd!
-    autocmd TerminalOpen * set nobuflisted
+    autocmd TermOpen * set nobuflisted
 augroup END
 
 function! s:matlab_log(message, file)
