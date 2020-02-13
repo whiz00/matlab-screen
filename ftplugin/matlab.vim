@@ -7,7 +7,7 @@ function matlab#Start()
         return
     endif
     rightbelow let s:matlab_buf =
-    \term_open(g:matlab_term_cmd,
+    \termopen(g:matlab_term_cmd,
     \{"term_finish" : "close", "term_rows": g:matlab_screen_terminal_height, "norestore" : 1 })
     wincmd p
 endfunction
